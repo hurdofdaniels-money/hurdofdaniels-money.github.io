@@ -1,0 +1,738 @@
+/*WRAPPER FOR THE PAGE*/
+.wrap {
+    position: relative;
+    background: #F6F6F9;
+    line-height: normal;
+    padding-bottom: 70px;
+}
+
+
+.l-content {
+    margin-left: 150px;
+    width: fit-content;
+    width: -moz-fit-content;
+    min-height: 400px;
+}
+
+/*Component Section Classes*/
+
+.c-card--shadow:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    border-radius: 8px;
+}
+
+.c-section--white {
+    background-color: #fff;
+}
+
+.c-section__header-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--purple-dark);
+    margin-bottom: 5px;
+    width: 720px;
+}
+
+.c-section__header-subtitle {
+    font-weight: normal;
+    font-size: 18px;
+    color: var(--purple-dark);
+    opacity: 0.9;
+    padding-bottom: 30px;
+}
+
+.c-section__form {
+    display: flex;
+    align-items: flex-end;
+    width: 1000px;
+    margin-bottom: 30px;
+}
+
+/*Layout Section Classes*/
+
+.l-section__form {
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    position: relative;
+}
+
+.l-section__header {
+    padding-top: 50px;
+    margin-left: 150px;
+    /*width: 1000px;*/
+}
+
+.card card__job {
+    overflow: hidden;
+}
+
+/*Form Classes*/
+.c-form__icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 20px;
+    top: 35px;
+}
+
+.c-form__input {
+    border-radius: 74px;
+    height: 48px;
+    margin-right: 15px;
+}
+
+.c-form__input--select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../../../../../cdn-static.talent.com/img/tax-calculator/input__dropdown-menu.png);
+    background-position: calc(98% - .5rem), 100% 0;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+.c-form__input--icon {
+    padding-left: 60px;
+}
+
+.c-form__input--job-name {
+    width: 460px;
+}
+
+.c-form__input--time {
+    width: 140px;
+}
+
+.c-form__input--location {
+    width: 225px;
+}
+
+.c-form__input--find-salary {
+    width: 162px;
+}
+
+.c-form__label {
+    padding-left: 13px;
+    padding-bottom: 5px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--purple-dark);
+}
+
+.c-form__img-header {
+    width: 225px;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 840px;
+}
+
+.l-form__input {
+    position: relative;
+}
+
+.c-card--btn-label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: var(--purple-dark);
+}
+
+/*Card Classes*/
+.c-card__title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 340px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--purple-dark);
+    margin: 8px 5px;
+    min-height: 45px;
+}
+
+.l-card__category-result-holder {
+    padding: 20px 0 0;
+    display: block;
+}
+
+.l-card__row-li-elements {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.l-card__hidden-wrapper {
+    display: none;
+}
+
+.c-card {
+    background-color: #fff;
+    width: 640px;
+    padding: 25px 23px;
+    border-radius: 8px;
+    color: var(--grey);
+    margin-top: 25px;
+}
+
+.c-card__btn-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: var(--deep-purple);
+}
+
+.c-card--btn-group {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c-card__btn {
+    padding: 8px 11px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: capitalize;
+    white-space: nowrap;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.c-card__btn:hover {
+    background-color: #f6f6f9;
+}
+
+.c-card__btn:last-of-type {
+    margin-right: 0;
+}
+
+.c-card__btn--selected {
+    background: rgba(105, 31, 116, 0.1);
+    color: var(--purple);
+    font-weight: 600;
+}
+
+.l-card__holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.l-card--shrink {
+    /*height: 140px;*/
+    overflow: hidden;
+    transition: height 3s ease-in-out 0s;
+}
+
+.--unshrink {
+    height: auto;
+}
+
+/*Begin Salary Card Classes*/
+
+.c-card--top {
+    padding-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 1px solid var(--grey-light);
+}
+
+.c-card--bottom {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 0;
+    padding: 0 10px 20px;
+}
+
+.l-card__salary-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+}
+
+.l-card__img-holder {
+    width: 80px;
+    padding-bottom: 5px;
+}
+
+.c-card__category-img {
+    width: 60px;
+}
+
+.l-card__title-holder{
+    flex-grow: 5;
+    display: flex;
+    align-items: center;
+}
+
+.l-card__salary-holder {
+    align-self: normal;
+    text-align: right;
+    margin-top: 2px;
+}
+
+.l-card__bottom-salary-holder {
+    display: none;
+}
+
+.c-card__category-salary-value {
+    color: var(--deep-purple);
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: bold;
+}
+
+.c-card__category-salary-based {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/*Category List Result Classes*/
+.c-card__categoryList-text {
+    width: 350px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--purple-dark);
+    display: inline-block;
+    position: relative;
+    text-align: left;
+}
+
+.c-card__categoryList-text:hover {
+    text-decoration-line: underline;
+    color: var(--purple-dark);
+}
+
+.c-card__categoryList--li {
+    display: flex;
+    font-size: 13px;
+    text-decoration: none;
+    align-items: center;
+    white-space: nowrap;
+    line-height: 40px;
+    padding: 0 15px;
+    width: 50%;
+}
+
+.c-card__categoryList--li:hover{
+    background: rgba(248, 248, 250, 0.8);
+    border-radius: 4px;
+    text-decoration: underline;
+}
+
+.c-card__categoryList-value {
+    color: var(--deep-purple);
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    width: -webkit-fill-available;
+
+}
+
+.l-card__button-container {
+    margin: 10px auto 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-card--show-more-btn {
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 80px;
+    margin-top: 5px;
+    border: 1px solid #E1DCE2;
+    background-color: white;
+    width: fit-content;
+    padding: 5px 12px;
+    color: var(--grey);
+    user-select: none;
+}
+
+.c-card--show-more-btn:hover {
+    border: 1px solid var(--purple-light);
+    background-color: var(--grey-light-30);
+    cursor: pointer;
+}
+
+.c-card--show-more-btn:focus {
+    outline: none;
+}
+
+/*Average Salaries per Region Classes*/
+
+.l-card__container-avg-salary{
+    top: 12px;
+    position: relative;
+    line-height: 30px;
+    border-radius: 4px;
+    margin: 0 10px;
+}
+
+.l-card--progressBar--row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+#salariesRegions .l-card--progressBar--row:hover {
+    cursor: default;
+}
+
+#relatedSalaries .l-card--progressBar--row:hover .l-card--progressBar--firstHalf {
+    text-decoration: underline;
+}
+
+.l-card--progressBar--row:hover {
+    background-color: var(--grey-light-50);
+}
+
+.c-card--progressBar--entries {
+    display: none;
+    white-space: nowrap;
+}
+
+.l-card--progressBar--row:hover .c-card--progressBar--entries {
+    display: flex;
+    color: #808080;
+    font-size: 11px;
+    line-height:25px;
+}
+
+.l-card--progressBar--firstHalf {
+    display: flex;
+    /*justify-content: space-between;*/
+    flex: 1.4;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.l-card--progressBar--secondHalf {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+
+.c-card--progressBar--text {
+    text-decoration: none;
+    color: var(--purple-dark);
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.l-card--progressBar--row:hover .c-card--progressBar--text {
+    color: var(--deep-purple);
+}
+
+.--textEllipsis {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.c-card--progressBar--number {
+    /*margin-right: 20px;*/
+    color: var(--deep-purple);
+    font-weight: 600;
+    padding: 5px;
+    white-space: nowrap;
+}
+
+.c-card--progressBar--bar {
+    background: var(--grey-dark);
+    box-sizing: border-box;
+    border-radius: 7px;
+    height: 5.8px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.c-card--progressBar--inner {
+    background: var(--green);
+    width: 100%;
+    z-index: 9;
+    position: relative;
+    border-radius: 7px;
+    height: 100%;
+}
+
+.c-card--progressBar--arrow {
+    display: inline-flex;
+    padding-left: 20px;
+    opacity: 0.2;
+}
+
+.l-card--progressBar--row:hover .c-card--progressBar--arrow {
+    opacity: 1;
+}
+
+.--red-bar {
+    background: var(--orange);
+}
+
+/*People Also Ask Classes*/
+
+.l-card__paa--row {
+    padding: 15px 15px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--purple-dark);
+}
+
+.c-card__paa--arrow {
+    display: inline-block;
+    position: relative;
+    float: right;
+    opacity: 0.5;
+    width: 14px;
+    height: 14px;
+    top: 6px;
+}
+
+.l-card__container:hover .l-card__paa-link {
+    text-decoration: underline;
+}
+/*No Jobs Found Classes*/
+.l-card__nojobsFound--container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.c-card--nojobsFound--text {
+    text-align: center;
+    color: var(--purple-dark);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.c-card--nojobsFound--img {
+    margin-top: 40px;
+    width: 250px;
+}
+
+/*Job Found Classes
+  Stats Chart*/
+.c-card__stats-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.l-card__stats--top-row {
+    padding: 15px 5px 10px;
+}
+
+.l-card__stats--bottom-row {
+    display: flex;
+    flex-direction: row;
+}
+.l-card__stats--left-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 15px;
+}
+
+.l-card__stats--right-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 15px 15px 15px 0;
+    margin-top: -60px;
+}
+
+.l-card__stats--img {
+    width: 100%;
+}
+
+.l-card__stats--bottom-labels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.l-card__stats--midLabel {
+    margin-left: 60px;
+}
+
+.l-card__stats--highLabel {
+    text-align: right;
+}
+
+.c-card--stats-graph-text {
+    font-size: 13px;
+    color: var(--purple-dark);
+}
+
+.l-card__stats--top {
+    padding: 0 10px;
+}
+
+.l-card__mainNumber {
+    display: flex;
+    align-items: baseline;
+}
+
+.c-card__stats-mainNumber {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: var(--purple-dark);
+    margin-right: 15px;
+}
+
+.c-card__stats-timeUnit {
+    font-size: 16px;
+    color: var(--purple-dark);
+    text-transform: capitalize;
+}
+
+.c-card__stats-info {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 24px;
+    color: var(--purple-dark);
+}
+
+.c-card__btn-fade {
+    display: none;
+}
+
+/*Temporary Job Card Classes */
+.link-job-wrap {
+    cursor: unset;
+    padding: unset;
+}
+
+.card__job {
+    border: unset;
+    padding: unset;
+}
+
+.card__job:hover {
+    box-shadow: unset;
+}
+
+.c-card--shadow .card {
+    padding: 0 15px;
+    border-radius: 0;
+    position: relative;
+    width: 100%;
+    background: white;
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--grey-light);
+}
+
+.card--more {
+    cursor: pointer;
+    border-top: 1px solid #eaeaea;
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 15px 0 10px 0;
+    text-align: center;
+    margin: 25px -20px -20px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.card__job:nth-child(n+5) {
+    display: none;
+}
+
+.card__job-badges-holder {
+    margin-left: 86px;
+    margin-top: 16px;
+}
+
+.card__job-badge-salary {
+    background-image: url('../../img/salary.png');
+    color: var(--blue);
+}
+
+.card__job-badge-wrap {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: bottom;
+    margin-right: 18px;
+    font-weight: 500;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    background-position: center;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding: 0 0 0 30px;
+}
+
+#inactiveJobs .card__job-badge-salary {
+    filter: grayscale(1);
+}
+
+.gojob {
+    font-size: 18px;
+    font-weight: 600;
+    overflow: hidden;
+    display: -webkit-inline-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.c-card--jobs {
+    padding: 0 10px;
+}
+
+#inactiveJobs a {
+    pointer-events: none;
+    text-decoration: none;
+}
+
+.c-card--shadow .card.card__job {
+    border-bottom: 1px solid var(--grey-light);
+}
+
+.c-card--shadow .card.card__job:last-of-type {
+    border-bottom: none;
+    padding-bottom: 15px;
+}
+
+.link-job-wrap {
+    cursor: pointer;
+    padding: 20px 20px;
+}
+
+.c-card--inactive-jobs .card__job {
+    padding: 25px 35px;
+}
+
+@media only screen and (max-width: 1150px){
+
+    .c-form__img-header {
+        display: none;
+    }
+
+}
+

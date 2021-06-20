@@ -1,0 +1,111 @@
+.hs-form-field label {
+    color: black;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 29px;
+    margin-bottom: 8px;
+}
+
+.hs-input {
+    background: var(--grey-light);
+    border-radius: 74px;
+    border: 0px;
+    padding: 15px 25px;
+    border: 2px solid var(--grey-light);
+    color: #676767;
+    /* margin-bottom: 25px; */
+    width: 100%;
+    font-size: 14px;
+    resize: none;
+}
+
+.hs-input:focus {
+    border-color: var(--purple);
+    outline: 0;
+}
+
+.card.card__formHolder {
+    text-align: center;
+    width: 100%;
+    max-width: 516px;
+    margin: auto;
+}
+select.hs-input {
+    display: block;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../../../../../cdn-static.talent.com/img/contact-us/select.png);
+    background-repeat: no-repeat, repeat;
+    background-position: right 1.5em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+input.hs-button.primary.large {
+    background: var(--orange);
+    box-shadow: 0px 16px 48px rgba(227, 75, 49, 0.06);
+    width: 170px;
+    color: #fff;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50px;
+    font-size: 14px;
+    height: 48px;
+    padding: 0px 18px;
+    text-align: center;
+    user-select: none;
+}
+input.hs-button.primary.large:hover {
+    background: var(--orange-dark);
+}
+.hs-input.error {
+    border-color: red;
+}
+label.hs-error-msg {
+    color: red;
+}
+.hs_error_rollup {
+    margin-top: 20px;
+}
+ul.no-list.hs-error-msgs.inputs-list {
+    color: red;
+}
+.actions{
+    display: flex;
+}
+.hs-form-field {
+    margin-bottom: 18px;
+}
+
+.hs-form-field label span {
+    font-size: 12px;
+    line-height: 20px;
+}
+.submitted-message {
+    overflow: visible !important;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--grey);
+}
+
+.form__submit {
+    margin: 24px 0 0;
+}
+
+.hs-form-booleancheckbox-display {
+    display: inline-flex;
+    position: relative;
+}
+
+.hs-form-booleancheckbox-display input{
+    position: relative;
+    top: 5px;
+}
+
+.hs-form-booleancheckbox-display div {
+    display: inline-flex;
+    line-height: 1.6em;
+}

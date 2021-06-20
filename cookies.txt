@@ -1,0 +1,14 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+nz.talent.com	TRUE	/	FALSE	1999999999	ttc	e07asnomake8krs35fkhq0b54c
+.talent.com	TRUE	/	FALSE	1999999999	samesite	lax
+nz.talent.com	TRUE	/	FALSE	1999999999	uet_uuid	409c3301e6
+www.talent.com	TRUE	/	FALSE	1999999999	AWSALB	tKhKdJyu+a9bHb4qxnVSyLrNC6bbXdOlb1maWr2ZQWq/hOIyVtNq9AtGooN8NoUPYccmVJMm2sB0bPw8SzihKUgj+Zl44/7NOPJfnVIlcdgYJmPhvpj0kPTBTkfw
+www.talent.com	TRUE	/	FALSE	1999999999	AWSALBCORS	tKhKdJyu+a9bHb4qxnVSyLrNC6bbXdOlb1maWr2ZQWq/hOIyVtNq9AtGooN8NoUPYccmVJMm2sB0bPw8SzihKUgj+Zl44/7NOPJfnVIlcdgYJmPhvpj0kPTBTkfw
+www.talent.com	TRUE	/	FALSE	1999999999	SameSite	None
+nz.talent.com	TRUE	/	FALSE	1999999999	uet_source	referer
+.talent.com	TRUE	/	FALSE	1999999999	Samesite	Lax
+nz.talent.com	TRUE	/	FALSE	1999999999	AWSALB	V7qScW9ujdARzryv/TelKiusgTxKke0JqOanWSgi4OTZJATonr08FVvl2gEeRZSZporEOpVovTcj5qSSUp3Q3rssnWvSxXSTrRyAisKs4yGHBh5t6ZKsC5O6llZq
+nz.talent.com	TRUE	/	FALSE	1999999999	AWSALBCORS	V7qScW9ujdARzryv/TelKiusgTxKke0JqOanWSgi4OTZJATonr08FVvl2gEeRZSZporEOpVovTcj5qSSUp3Q3rssnWvSxXSTrRyAisKs4yGHBh5t6ZKsC5O6llZq
+nz.talent.com	TRUE	/	FALSE	1999999999	SameSite	None
+

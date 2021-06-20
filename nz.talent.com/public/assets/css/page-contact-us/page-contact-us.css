@@ -1,0 +1,224 @@
+textarea {
+    resize: none;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    font-family: 'Poppins', sans-serif;
+    align-content: center;
+}
+
+.content__left {
+    padding-left: 100px;
+    position: relative;
+}
+.content__left::before {
+    position: absolute;
+    content: '';
+    background-image: url(../../../../../cdn-static.talent.com/img/contact-us/top-ilustration.png);
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    background-size: contain;
+    display: block;
+    top: 0;
+    left: 0;
+}
+.content__left::after {
+    position: absolute;
+    content: '';
+    height: 50px;
+    width: 50px;
+    background-image: url(../../../../../cdn-static.talent.com/img/contact-us/small__circle.png);
+    background-repeat: no-repeat;
+    /* background-image: url(./img/circle1.png); */
+    display: block;
+    top: 20%;
+    right: 5%;
+    background-size: contain;
+
+}
+.content__right {
+    margin: 0;
+    background: linear-gradient(180deg, var(--grey-light-50) 0%, #FFFFFF 172.79%);
+    mix-blend-mode: normal;
+    position: relative;
+    /* display: grid; */
+    /* justify-content: center; */
+
+}
+.content__right::before {
+    position: absolute;
+    content: '';
+    height: 68px;
+    width: 68px;
+    background-image: url(../../../../../cdn-static.talent.com/img/contact-us/medium_circle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-image: url(./img/circle1.png); */
+    display: block;
+    bottom: 5%;
+    left: 10%;
+}
+.content__left,
+.content__right {
+    padding: 180px 100px;
+}
+.content__intro {
+    display: grid;
+    grid-gap: 20px;
+}
+.content__title {
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 58px;
+    color: var(--nero);
+    margin: 100px 0 50px 0;
+    width: 325px;
+    word-break: break-word;
+}
+.content__description {
+    max-width: 310px;
+}
+
+.content__description p {
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--grey);
+    margin-bottom: 30px;
+
+}
+.content__img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.formContactUs,
+.success  {
+    padding: 100px 5% 55px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 516px;
+    margin: 0 auto;
+}
+.form--hidden {
+    display: none;
+}
+.form__title {
+    justify-self: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--nero);
+    margin-bottom: 45px;
+}
+.form__input{
+    background: var(--grey-light);
+    border: 2px solid var(--grey-light);
+    border-radius: 74px;
+    padding: 15px 18px;
+    color: var(--grey);
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.success__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.form__reason {
+    display: block;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('../../../../../cdn-static.talent.com/img/contact-us/select.png');
+    background-repeat: no-repeat, repeat;
+    background-position: right 1.5em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+
+.form__reason::-ms-expand {
+    display: none;
+}
+.form__reason option {
+    font-weight:normal;
+}
+
+.form__input.form__message {
+    -webkit-appearance: none;
+    border-radius: 24px;
+    color: black;
+    width: 100%;
+}
+
+.form__message:hover {
+    background-color: #F0F0F5;
+}
+.form__message:focus {
+    outline: 0;
+    border-color: var(--purple);
+}
+
+.form__submit,
+.success__btn  {
+    width: 170px;
+    margin-top: 10px;
+}
+
+
+.success {
+    /*display: none;*/
+    justify-items: center;
+    text-align: center;
+    padding: 90px 50px 90px 50px;
+}
+.success--show {
+    display: grid;
+}
+.success__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.success__message {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color:var(--grey);
+}
+.success__btn{
+    margin-top: 50px;
+    text-decoration: none;;
+}
+.txt-error{
+    color: red;
+    margin-bottom: 5px;
+}
+
+.input-error {border-color: red !important;}
+.placeholderSelect {
+    color: var(--grey);
+}
+
+
+.hs-input[type=checkbox] {
+    width: initial;
+    margin-right: 20px;
+}
+
+.label--error {
+    color: red;
+    display: none;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 29px;
+    margin-bottom: 8px;
+}
+
+.l-field--wrapper {
+    padding: 0 0 24px;
+}

@@ -1,0 +1,38 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 20 Jun 2021 13:50:14 at https://nz.talent.com/tax-calculator +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://nz.talent.com/tax-calculator -O1 "C:\My Web Sites\Tax Calc" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:57:33	Warning: 	Link https://nz.talent.com/posting-policy not scanned (follow robots meta tag)
+13:57:36	Warning: 	Link https://nz.talent.com/tos not scanned (follow robots meta tag)
+13:58:46	Error: 	"Not Found" (404) at link https://nz.talent.com/1d (from https://nz.talent.com/jobs)
+13:58:46	Error: 	"Not Found" (404) at link https://nz.talent.com/3d (from https://nz.talent.com/jobs)
+13:58:46	Error: 	"Not Found" (404) at link https://nz.talent.com/7d (from https://nz.talent.com/jobs)
+13:58:46	Error: 	"Not Found" (404) at link https://nz.talent.com/30d (from https://nz.talent.com/jobs)
+13:58:46	Error: 	"Not Found" (404) at link https://nz.talent.com/title (from https://nz.talent.com/jobs)
+13:58:46	Error: 	"Not Found" (404) at link https://nz.talent.com/company (from https://nz.talent.com/jobs)
+13:58:46	Error: 	"Not Found" (404) at link https://nz.talent.com/staffing (from https://nz.talent.com/jobs)
+13:58:46	Error: 	"Not Found" (404) at link https://nz.talent.com/jobboard (from https://nz.talent.com/jobs)
+13:58:46	Error: 	"Not Found" (404) at link https://nz.talent.com/exact (from https://nz.talent.com/jobs)
+13:58:46	Error: 	"Not Found" (404) at link https://nz.talent.com/5 (from https://nz.talent.com/jobs)
+13:58:46	Error: 	"Not Found" (404) at link https://nz.talent.com/25 (from https://nz.talent.com/jobs)
+13:58:46	Error: 	"Not Found" (404) at link https://nz.talent.com/50 (from https://nz.talent.com/jobs)
+13:58:46	Error: 	"Not Found" (404) at link https://nz.talent.com/100 (from https://nz.talent.com/jobs)
+14:00:31	Error: 	"Not Found" (404) at link https://nz.talent.com/Trident/ (from https://acsbapp.com/apps/app/dist/js/app.js)
+14:00:31	Error: 	"Not Found" (404) at link https://nz.talent.com/app/ (from https://acsbapp.com/apps/app/dist/js/app.js)
+14:00:31	Error: 	"Not Found" (404) at link https://nz.talent.com/dist/js/app.js (from https://acsbapp.com/apps/app/dist/js/app.js)
+14:10:13	Warning: 	Retry after error 500 (Internal Server Error) at link https://nz.talent.com/ajax/career-page/get-talent-job-posts.php (from https://nz.talent.com/careers)
+14:10:13	Warning: 	Link https://nz.talent.com/jobs?k=&l=&radius=15&p=1 not scanned (follow robots meta tag)
+14:10:13	Warning: 	Link https://nz.talent.com/jobs?k=&l=&radius=15&p=2 not scanned (follow robots meta tag)
+14:10:13	Warning: 	Link https://nz.talent.com/jobs?k=&l=&radius=15&p=3 not scanned (follow robots meta tag)
+14:10:13	Warning: 	Link https://nz.talent.com/jobs?k=&l=&radius=15&p=4 not scanned (follow robots meta tag)
+14:10:13	Warning: 	Link https://nz.talent.com/jobs?k=&l=&radius=15&p=5 not scanned (follow robots meta tag)
+14:10:13	Error: 	"Not Found" (404) at link https://cdn-dynamic.talent.com/services/companies-api/img/test_starts.png (from https://cdn-dynamic.talent.com/public/assets/css/job-list.css?v=2021-06-Sat:09:014)
+14:12:26	Warning: 	Retry after error 500 () at link https://nz.talent.com/ajax/career-page/get-talent-job-posts.php (from https://nz.talent.com/careers)
+14:13:13	Error: 	"" (500) after 2 retries at link https://nz.talent.com/ajax/career-page/get-talent-job-posts.php (from https://nz.talent.com/careers)
+
+HTTrack Website Copier/3.49-2 mirror complete in 23 minutes 4 seconds : 2970 links scanned, 2949 files written (87537320 bytes overall) [30742624 bytes received at 22212 bytes/sec], 72890997 bytes transferred using HTTP compression in 2427 files, ratio 18%, 47.1 requests per connection
+(18 errors, 9 warnings, 0 messages)

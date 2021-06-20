@@ -1,0 +1,701 @@
+/*WRAPPER FOR THE PAGE*/
+.wrap {
+    position: relative;
+    background: #F6F6F9;
+    line-height: normal;
+    padding-bottom: 55px;
+}
+
+
+.l-content {
+    margin-left: 150px;
+    width: fit-content;
+    width: -moz-fit-content;
+    min-height: 760px;
+}
+
+/*Component Section Selectors*/
+.c-section--white {
+    background-color: #fff;
+}
+
+.c-section__header-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--purple-dark);
+    margin-bottom: 5px;
+    width: 720px;
+}
+
+.c-section__header-subtitle {
+    font-weight: normal;
+    font-size: 18px;
+    color: var(--purple-dark);
+    opacity: 0.9;
+    padding-bottom: 30px;
+}
+
+.c-section__form {
+    display: flex;
+    align-items: flex-end;
+    width: 720px;
+    margin-bottom: 30px;
+}
+
+.l-section__form {
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.l-section__header {
+    padding-top: 50px;
+    margin-left: 150px;
+    /*width: 1000px;*/
+}
+
+/*Form Selectors*/
+.c-form__icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 20px;
+    bottom: 12px;
+    z-index: 2;
+}
+
+.c-form__input {
+    border-radius: 74px;
+    height: 48px;
+    margin-right: 15px;
+}
+
+.c-form__input--select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../../../../../cdn-static.talent.com/img/tax-calculator/input__dropdown-menu.png);
+    background-position: calc(98% - .5rem), 100% 0;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+.c-form__input--icon {
+    padding-left: 60px;
+}
+
+.c-form__input--salary {
+    width: 200px;
+    position: relative;
+}
+
+.c-form__input--time {
+    width: 140px;
+}
+
+.c-form__input--location {
+    width: 225px;
+}
+
+.c-form__input--calculate {
+    width: 145px;
+}
+
+.c-form__label {
+    padding-left: 13px;
+    padding-bottom: 5px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--purple-dark);
+    display: inline-block;
+}
+
+.c-form__img-header {
+    width: 225px;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 1010px;
+}
+
+/*.l-form__input {*/
+/*    position: relative;*/
+/*}*/
+
+.l-form__input.l-form__input--salary {
+    position: relative;
+}
+
+.l-form__inputs {
+    display: flex;
+    align-items: flex-end;
+}
+
+/*Card Selectors*/
+.c-card__title {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--purple-dark);
+    margin-bottom: 18px;
+}
+
+.l-card__deductions-holder {
+    width: 320px;
+}
+
+.c-card {
+    background-color: #fff;
+    width: 640px;
+    padding: 23px;
+    border-radius: 8px;
+    color: var(--grey);
+    margin-top: 25px;
+}
+
+.c-card__btn-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.c-card--btn-group {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c-card__btn {
+    padding: 8px 11px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: capitalize;
+    white-space: nowrap;
+    font-size: 12px;
+    margin-right: 12px;
+    color: var(--deep-purple);
+}
+
+.c-card__btn:hover {
+    background-color: var(--grey-light);
+}
+
+.c-card__btn:last-of-type {
+    margin-right: 0;
+}
+
+.c-card__btn--selected {
+    background: rgba(105, 31, 116, 0.1);
+    color: var(--purple);
+    font-weight: 600;
+}
+
+.l-card__holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.l-card__deductions {
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.l-card__deductions:first-of-type {
+    margin-bottom: 0;
+}
+
+.l-card__deductions:last-of-type {
+    margin-bottom: 0;
+}
+
+.c-card__deductions-highlight {
+    font-weight: 700;
+    color: var(--purple-dark);
+}
+
+.c-card__line-split {
+    border-bottom: 1px solid var(--grey-light);
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.c-card__deductions-value {
+    color: var(--purple-dark);
+}
+
+.c-card__deductions-highlight--big .c-card__deductions-label {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.c-card__deductions-highlight--big .c-card__deductions-value .timeBased {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.under-circle-small {
+    fill: #9DE9F6;
+}
+
+.stroke-circle-small {
+    fill: #9DE9F6;
+    stroke: var(--purple);
+    stroke-width: 70;
+}
+
+.c-card__pie-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 245px!important;
+    position: relative;
+    min-height: 225px;
+    margin-bottom: 50px;
+}
+
+.l-card__chart-holder {
+    position: relative;
+}
+
+.l-card__tag-container svg {
+    stroke: var(--violate-light);
+}
+
+.l-card__tag-container.l-card__tag-right {
+    position: absolute;
+    top: -16px;
+    right: 41px;
+}
+
+.l-card__tag-container.l-card__tag-left {
+    left: 39px;
+    top: 152px;
+    position: absolute;
+    color: #484848;
+}
+
+.l-card__tag-container.l-card__tag-left .c-card__tax-number {
+    position: absolute;
+    top: 24px;
+    right: 55px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.l-card__tag-container.l-card__tag-left .c-card__tax-number{
+    position: absolute;
+    top: 3px;
+    right: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--purple-dark);
+}
+
+.l-card__tag-container.l-card__tag-left .c-card__tax-label {
+    position: absolute;
+    top: 26px;
+    left: -62px;
+    font-size: 12px;
+    white-space: nowrap;
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--purple-dark);
+}
+
+.l-card__tag-container.l-card__tag-right .c-card__tax-number {
+    position: absolute;
+    top: -15px;
+    left: 52px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--purple-dark);
+}
+
+.l-card__tag-container.l-card__tag-right .c-card__tax-label {
+    position: absolute;
+    top: 8px;
+    left: 51px;
+    font-size: 12px;
+    white-space: nowrap;
+    max-width: 85px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--purple-dark);
+}
+
+.chart-legend {
+    justify-content: space-between;
+    min-width: 80%;
+    display: none;
+}
+
+.chart-legend .dot.net {
+    background: rgb(152, 228, 255);
+}
+
+.chart-legend .dot.tax {
+    background: rgb(41, 173, 228);
+}
+
+.chart-legend .dot {
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.c-card__information {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    flex: none;
+    order: 4;
+    align-self: center;
+}
+
+.c-card__information--summary {
+    margin-bottom: 45px;
+}
+
+.c-card--top {
+    padding-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 1px solid var(--grey-light);
+}
+
+.c-card--bottom {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.c-card-chart__container {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.c-card__axis-label-container
+{
+    padding: 20px 0px 0px;
+    margin-left: -10px;
+}
+
+.c-card--btn-label-y-axis {
+    padding: 5px 10px;
+    font-size: 11px;
+    color: var(--grey);
+    background-color: #F0F0F3;
+    border-radius: 4px;
+    border: none;
+}
+
+.c-card--table {
+    font-weight: 600;
+    font-size: 13px;
+    color: #30183F;
+}
+
+.c-card--btn-label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: var(--purple-dark);
+}
+
+/*Table Selectors*/
+.c-table {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.c-table .c-table__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--grey-light);
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.c-table .c-table__header {
+    background: rgb(255, 255, 255)!important;
+    border-top: none!important;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.c-table .c-table__header .c-table__td:first-child,
+.c-table .c-table__body .c-table__td:first-child {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.c-table .c-table__td:nth-child(1) {
+    width: 220px;
+}
+
+.c-table .c-table__td:nth-child(2) {
+    width: 150px;
+}
+
+.c-table .c-table__td:nth-child(3) {
+    width: 100px;
+}
+
+.c-table .c-table__td:nth-child(4) {
+    width: 80px;
+}
+
+.c-table .c-table__header .c-table__td,
+.c-table .c-table__body .c-table__td {
+    text-align: left;
+}
+
+.c-table .c-table__header .c-table__td:nth-child(3),
+.c-table .c-table__header .c-table__td:nth-child(4),
+.c-table .c-table__body .c-table__td:nth-child(3),
+.c-table .c-table__body .c-table__td:nth-child(4) {
+    text-align: center;
+}
+
+.c-table__row .c-table__body .c-table__td {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.c-table__row .c-table__header .c-table__td {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.c-table__row.c-table__body:hover {
+    background: rgba(248, 248, 250, 0.8);
+}
+
+.c-table__least-rank {
+    display: inline-flex;
+    background-color: #E34B31;
+    height: 26px;
+    width: 26px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-table__best-rank {
+    display: inline-flex;
+    background-color: #0DA0BA;
+    height: 26px;
+    width: 26px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-table__show-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    padding: 14px 20px 0px;
+    width: 100%;
+    text-align: center;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.c-table__btn-show-label {
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 80px;
+    margin-top: 5px;
+    border: 1px solid #E1DCE2;
+    width: fit-content;
+    padding: 5px 12px;
+    color: var(--grey);
+    user-select: none;
+}
+
+.c-table__btn-show-label:hover {
+    border: 1px solid var(--purple-light);
+    background-color: var(--grey-light-30);
+}
+
+.c-table__wrapper-hidden {
+    display: none;
+}
+
+.c-table__flag {
+    display: inline-block;
+    height: 12px;
+    width: 16px;
+    background-repeat: no-repeat !important;
+    margin-right: 10px;
+}
+
+/*Tax per Regions*/
+.c-card__container-regions {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: auto;
+    -moz-column-width: auto;
+    column-width: auto;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.c-card__container-income {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+    -webkit-column-width: auto;
+    -moz-column-width: auto;
+    column-width: auto;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.c-card__links div {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 32px;
+    color: #691F74;
+    text-decoration: none;
+    width: auto;
+    /*white-space: nowrap;*/
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.c-card__links div:hover {
+    text-decoration: underline;
+}
+
+.c-card--grey {
+    background: rgba(48, 24, 63, 0.05);
+    line-height: 22px;
+}
+
+.c-card--shadow:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    border-radius: 8px;
+}
+
+.c-card__btn-fade {
+    display: none;
+}
+
+@media only screen and (max-width: 1150px){
+
+    .c-form__img-header {
+        display: none;
+    }
+
+}
+
+/*feedback link*/
+.l-feedback--align {
+    display: block;
+    position: relative;
+    padding: 8px 0 20px;
+}
+
+.l-feedback--align a {
+    display: block;
+    position: absolute;
+    right: 0;
+}
+
+.l-feedback--align span:hover {
+    text-decoration: underline;
+}
+
+.l-feedback--align img {
+    padding: 0 5px 0 0;
+}
+
+.l-feedback--align span {
+    position: relative;
+    bottom: 5px;
+    color: #691F74;
+}
+
+/** TOOLTIP */
+.hyper-question-icon {
+    background: #fff;
+    color: #676767;
+    border: 1.5px solid #676767;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hyper__tooltip {
+    width: 300px;
+    color: #30183F;
+    position: absolute;
+    font-size: 12px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 12px 28px rgba(48, 55, 61, 0.2);
+    z-index: 3;
+    display: none;
+}
+
+.hyper__tooltip-text {
+    margin-right: 25px;
+    font-size: 12px;
+}
+
+.hyper__tooltip.hyper__tooltip-arrow:after {
+    content: " ";
+    position: absolute;
+    right: 182px;
+    bottom: -8px;
+    border-top: 8px solid #fff;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    border-bottom: none;
+    box-shadow: 0 12px 28px rgba(48, 55, 61, 0.2);
+}
+
+.card__btn--close {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 7px;
+    right: 9px;
+}

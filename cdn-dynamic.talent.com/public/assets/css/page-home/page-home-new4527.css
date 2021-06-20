@@ -1,0 +1,427 @@
+/* Home page CSS */
+
+.p-20 {
+    padding: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.c-section {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.l-section--two-col-wrapper {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.l-section--col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.l-column-alignment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.c-figure--purple-square {
+    background: #81358C;
+    opacity: 0.04;
+    border-radius: 160px;
+    transform: matrix(-0.82, 0.57, 0.57, 0.82, 0, 0);
+    width: 800px;
+    height: 700px;
+    z-index: -1;
+    position: absolute;
+}
+
+.l-figure--header-align {
+    left: -350px;
+    top: 0;
+}
+
+.l-figure--right-align {
+    right: -250px;
+    top: -100px;
+    width: 600px;
+    height: 600px
+}
+
+.l-figure--left-align {
+    left: -250px;
+    top: -100px;
+    width: 600px;
+    height: 600px;
+}
+
+h1.c-section__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #30183F;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+h2.c-section__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #30183F;
+    align-self: center;
+}
+
+h3.c-section__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #30183F;
+}
+
+h4.c-section__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #30183F;
+}
+
+.c-section__title.l-title--white {
+    color: white;
+}
+
+p.c-section__paragraph {
+    font-size: 16px;
+    line-height: 30px;
+    color: #676767;
+    margin: 0 0 30px;
+}
+
+p.c-section__paragraph.l-center--paragraph {
+    text-align: center;
+    margin: 0 auto 32px;
+}
+
+.l-section--title-alignment {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 72px 20px 0;
+}
+
+.c-image--home-2,
+.c-image--home-3,
+.c-image--home-4 {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+    /*padding: 0 50px;*/
+    max-height: 300px;
+}
+
+/*.c-image--home-2,*/
+/*.c-image--home-4 {*/
+/*    right: 0px;*/
+/*}*/
+
+/*.c-image--home-3 {*/
+/*    left: 0px;*/
+/*}*/
+
+.c-image--bg-1 {
+    position: absolute;
+    width: 600px;
+    right: -50px;
+    top: -50px;
+}
+
+.c-image--bg-2 {
+    position: absolute;
+    width: 600px;
+    left: -150px;
+    top: -50px;
+}
+
+.l-w-70 {
+    width: 70%;
+}
+
+.l-main-content--wrapper {
+    overflow: hidden;
+    min-width: 990px;
+}
+
+.l-section__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.l-section--hidden-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Post a job */
+
+.c-section__post-a-job {
+    background-color: #FAFAFC;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-section__post-a-job
+.l-section--banner {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+p a {
+    color: var(--purple);
+    text-decoration: underline;
+}
+
+
+/* Header Section */
+
+.c-section__header
+.l-section--col:nth-child(1) {
+    display: flex;
+    align-content: end;
+    justify-content: center;
+    flex: 1.5;
+}
+
+.c-section__header
+.l-section--col:nth-child(2) {
+    padding: 80px;
+    flex: 1;
+}
+
+.c-image--header {
+    width: 850px;
+    height: auto;
+    position: absolute;
+    left: -220px;
+    bottom: 0;
+}
+
+.button--sign-in,
+.button--create-account {
+    margin: 0 auto 16px;
+    min-width: 320px;
+    max-width: 100%;
+    padding: 16px 18px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button--create-account-2 {
+    margin: 0 auto 24px;
+    min-width: 320px;
+    max-width: 100%;
+    padding: 16px 18px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn--v2 {
+    min-width: 220px;
+}
+
+.button--learn-more {
+    min-width: 200px;
+    max-width: 100%;
+    margin: 0 auto 0 0;
+    padding: 12px 18px;
+}
+
+/* Section SEO */
+
+.c-section--seo {
+    background-color: #FAFAFC;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-section--seo
+.l-section__content-wrapper {
+    padding: 16px 0 16px;
+    cursor: pointer;
+}
+.c-section--seo
+.l-section--two-col-wrapper {
+    padding: 16px 20px 0;
+}
+
+.l-section--seo-link-holder {
+    position: relative;
+    padding: 24px 0 0;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+}
+
+.l-section--seo-link-holder li {
+    display: flex;
+    padding: 0 56px 16px 0;
+    color: var(--purple);
+    text-decoration: none;
+    max-width: 230px;
+}
+
+.l-section--seo-link-holder li:hover {
+    text-decoration: underline;
+}
+
+.l-section__button-container {
+    margin: 10px auto 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-btn--show-more {
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 80px;
+    margin: 0 0 50px 0;
+    border: 1px solid #E1DCE2;
+    background-color: white;
+    width: fit-content;
+    padding: 5px 12px;
+    color: var(--grey);
+}
+
+.l-btn--show-more:hover {
+    border: 1px solid var(--purple-light);
+    background-color: var(--grey-light-30);
+    cursor: pointer;
+}
+
+.l-btn--show-more:focus {
+    outline: none;
+}
+
+.l-btn--mobile-show-more {
+    display: none;
+}
+
+/* Offers Heading */
+
+.c-section__job-search,
+.c-section__compare-salary,
+.c-section.c-section__calculate-pay {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.c-section__job-search {
+    padding: 72px 24px 36px;
+}
+
+.c-section__compare-salary {
+    padding: 36px 24px 36px;
+}
+
+.c-section.c-section__calculate-pay {
+    padding: 36px 24px 72px;
+}
+
+.c-section__header {
+    max-width: 1280px;
+}
+
+.l-section--margin-box {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Create account */
+
+.c-section__create-account {
+    padding: 72px 0;
+    position: relative;
+    background-color: var(--purple);
+    overflow: hidden;
+}
+
+.l-section__container {
+    margin: 0 auto;
+    width: 977px;
+}
+
+.c-img--bottom-left {
+    position: absolute;
+    width: 200px;
+    bottom: -100px;
+    left: -50px;
+    z-index: 1;
+}
+
+.c-img--top-right {
+    position: absolute;
+    width: 300px;
+    top: -50px;
+    right: -100px;
+    z-index: 1;
+}
+
+/* Purple arrow */
+.c-icon__purple-arrow {
+    background: url(../../../../../cdn-static.talent.com/img/home-page/img-purple-arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 10px;
+    margin: 2px 0 0 16px;
+    transform: rotate(180deg);
+    transition: transform 500ms;
+}
+
+.c-icon__purple-arrow.rotate {
+    transform: rotate(0deg);
+}
